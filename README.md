@@ -1,6 +1,12 @@
 # kion-movie-genre-network-analysis
 Network analysis of movie genre clusters and their impact on commercial success using MTS KION dataset. Includes sensitivity analysis, community detection (Louvain), and centrality metrics evaluation. 
 
+**Источник:**
+MTS Kion Dataset: Petrov A., Safilo I., Tikhonovich D., Ignatov D. (2022). MTS Kion Implicit Contextualised Sequential Dataset for Movie Recommendation. Proceedings of the ACM RecSys CARS Workshop 2022.
+
+**Ссылка на репозиторий:** 
+https://github.com/irsafilo/KION_DATASET  
+
 # Анализ жанровых кластеров фильмов и их влияния на коммерческий успех
 ## О проекте
 Данный проект посвящен сетевому анализу популярного кино на основе данных стримингового сервиса МТС КИОН. Основная цель — исследовать структуру жанровых связей между фильмами и определить, влияет ли позиция фильма в этой сети (принадлежность к кластеру, центральность) на его коммерческие показатели: количество просмотров (`view_count`) и процент досматриваемости (`median_watched_pct`).
@@ -25,6 +31,8 @@ Network analysis of movie genre clusters and their impact on commercial success 
 *    **Супергероика/Экшн:** Мстители, Тор, Черная пантера.
 *    **Триллер/Драма:** Хрустальный, Маша.
 *    **Военное кино:** Девятаев, Балканский рубеж.
+*    **Мелодрама/Драма/Комедия:** Волк с Уолл-Стрит, После
+*    **Ужасы/триллер:** Приворот: Черное венчание, 13 грехов
 
 ### 2. Связь структуры и успеха
 *   **Отсутствие прямой корреляции:** Центральность узла (Betweenness, PageRank) **не гарантирует** высокое количество просмотров. Маркетинговый успех определяется факторами вне топологии контента.
