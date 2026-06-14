@@ -45,6 +45,3 @@ https://github.com/irsafilo/KION_DATASET
 *   Python 3.8+
 *   Jupyter Notebook
 
-### Установка зависимостей
-```bash
-pip install -r requirements.txt
